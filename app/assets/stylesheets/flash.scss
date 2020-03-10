@@ -1,0 +1,19 @@
+.alert {
+  position: relative;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+
+.alert-success, .alert-notice {
+  color: #33FF58;
+  background-color: whitesmoke;
+  border-color: #19802C;
+}
+
+.alert-error, .alert-alert {
+  color: #FF2317;
+  background-color: #80120C;
+  border-color: #400906;
+}
